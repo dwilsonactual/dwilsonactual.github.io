@@ -1,0 +1,8 @@
+{
+    "Owners": {
+        "OpenALM": [{
+            "include": [".webplatform-header", ".webplatform-header *"],
+            "exclude": [".search-menu-bar", ".search-menu-bar *"]
+        }]
+    }
+}
