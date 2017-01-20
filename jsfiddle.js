@@ -1,14 +1,14 @@
 function log(msg) {
-	var out = document.getElementById('out');
+    var out = document.getElementById('out');
     if (!out) {
-    	out = document.createElement('ul');
+        out = document.createElement('ul');
         out.setAttribute('id', 'out');
         document.body.appendChild(out);
     }
-	var li = document.createElement('li');
+    var li = document.createElement('li');
     li.textContent = msg;
     out.appendChild(li);
 }
 function clearLog() {
-	document.getElementById('out').innerHTML = '';
+    document.getElementById('out').innerHTML = '';
 }
