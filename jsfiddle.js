@@ -6,7 +6,7 @@ function log(msg) {
         document.body.appendChild(out);
     }
     var li = document.createElement('li');
-    li.textContent = msg;
+    li.textContent = new Date().toISOString() + ': ' + msg;
     out.appendChild(li);
 }
 function clearLog() {
